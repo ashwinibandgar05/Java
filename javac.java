@@ -1,3 +1,5 @@
+
+
 interface Camera {
 
     void takeSnap();
@@ -50,7 +52,7 @@ class Smartphone extends MyCellPhone implements Camera, wifi {
     }
 }
 
-public class defaultMethods {
+public class javac{
 
     public static void main(String[] args) {
 
