@@ -1,0 +1,6 @@
+/**
+ * cannotDivideByZero
+ */
+public class cannotDivideByZero {
+
+}
