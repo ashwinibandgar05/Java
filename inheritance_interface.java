@@ -1,14 +1,12 @@
-interface Animal {
-
+interface AnimalInterfaceEx {
     void eat();
 }
 
-interface Dog extends Animal {
-
+interface DogInterfaceEx extends AnimalInterfaceEx {
     void bark();
 }
 
-class MyDog implements Dog {
+class MyDogInterfaceEx implements DogInterfaceEx {
 
     public void eat() {
         System.out.println("Dog eats");
@@ -19,14 +17,11 @@ class MyDog implements Dog {
     }
 }
 
-
 public class inheritance_interface {
     public static void main(String[] args) {
-
-        MyDog d = new MyDog();
-
+        // Updated to use the unique class name
+        MyDogInterfaceEx d = new MyDogInterfaceEx();
         d.eat();
         d.bark();
     }
-    
 }
