@@ -4,6 +4,10 @@
  */
 public class Calculator {
 
+    public static void main(String[] args){
+
+    }
+
     /**
      * Divides two numbers safely.
      * 
@@ -11,6 +15,7 @@ public class Calculator {
      * @param b The bottom number (denominator)
      * @return The final divided result as a double
      * @throws ArithmeticException If you try to divide by zero
+     * @deprecated This method is deprecated please ise divide operator 
      */
     public double divide(double a, double b) {
         if (b == 0) {
